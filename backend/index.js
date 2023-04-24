@@ -6,7 +6,7 @@ const cors = require("cors");
 const Users = require("./routes/user.route");
 const app = express();
 //DB Connection
-mongoose.connect("mongodb://localhost:27017/leave_system")
+mongoose.connect("mongodb+srv://karnsachin003:xau6MX2ILdvcxkRA@cluster0.9hbfuav.mongodb.net/?retryWrites=true&w=majority")
 .then(()=>{
     console.log("DB connected");
 })
